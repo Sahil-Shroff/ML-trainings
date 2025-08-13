@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+Xpoints=np.array([1, 2, 3, 4, 6])
+# plt.plot(Xpoints, 'h', ms='20', mfc='#4CAF50', linestyle=':', color='r')
+
+plt.xlabel('Heart Rate')
+plt.title('Report', loc='left')
+# plt.grid()
+# plt.scatter(Xpoints, Ypoints)
+plt.pie(Xpoints)
+plt.show()
